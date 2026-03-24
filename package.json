@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.6"
   },
@@ -49,5 +50,18 @@
     "titleTemplate": "{classname}-{title}",
     "ancestorSeparator": " › ",
     "usePathForSuiteName": "true"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "playwright.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdespa/learn-jenkins-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdespa/learn-jenkins-app/issues"
+  },
+  "homepage": "https://github.com/vdespa/learn-jenkins-app#readme"
 }
